@@ -3,8 +3,8 @@ include:
     shield: settings_reset
   - board: xiao_ble//zmk
     shield: totem_left
-   # snippet: studio-rpc-usb-uart
-   # cmake-args: -DCONFIG_ZMK_STUDIO=y
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_USB_LOGGING=y
   - board: xiao_ble//zmk
     shield: totem_right
 
